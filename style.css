@@ -102,6 +102,11 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .header-container {
+        height: 40px;
+        font-size: 14px;
+    }
+
     .main-container {
         grid-template-columns: repeat(1, 1fr);
     }
