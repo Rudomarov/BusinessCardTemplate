@@ -66,6 +66,15 @@ footer {
     gap: 20px;
 }
 
+.stacks-container {
+    height: 160px;
+    width: auto;
+    overflow-y: auto;
+    scrollbar-width: none;
+    list-style-position: outside;
+    margin: 0;
+}
+
 .business-card {
     display: flex;
     flex-direction: column;
@@ -84,18 +93,11 @@ footer {
 
 .business-card ul {
     margin: 0;
-    padding: 0;
+    padding-left: 20px;
 }
 
 .business-card ul li {
     margin: 0 0 15px 0;
-}
-
-.stacks-container {
-    height: 160px;
-    width: 280%;
-    overflow-y: auto;
-    scrollbar-width: none;
 }
 
 #avatar-image {
